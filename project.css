@@ -1,0 +1,408 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+ }
+.container1{
+position: relative;
+background-image: url(1.1image.png);
+height:75rem;
+width: 100%;
+background-repeat: no-repeat;background-size: cover;
+background-position-y:95%;
+}
+.right-overlay{
+width: 450px;
+height: 800px;
+position: absolute;
+z-index: 7;
+bottom: 0px;
+right: 0;
+overflow: hidden;
+}
+.texture-overlay{
+width: 100%;
+height : 495px;
+position: absolute;
+top: -250px;
+left: 0;
+overflow: hidden;    
+background-position-y: 30%;                 
+}
+.nav1{
+padding-top: 100px;
+padding-left: 650px;
+padding-right: 600px;
+position:absolute; 
+display:flex;
+font-size:35px;
+float: right;
+}
+.nav1 img{
+float: left;
+}
+
+.navbar{
+    display:flex;
+    width:90vw;
+    height:5vh;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 220px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.tags{
+    display: flex;
+    width:40%;
+    justify-content: space-between;
+}
+button{
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    height: 50px;
+    width: 150px;
+}
+.navbar h1{
+    padding-left: 300px;
+    padding-bottom: 10px;
+}
+.quote{
+width: 250px;
+height: 400px;
+text-wrap:nowrap;
+padding-top: 200px;
+padding-left: 150px;
+}
+.quote button{
+background-color: black;
+color: white;
+border-radius: 50px;
+width: 200px;
+height: 50px;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 200px;
+}
+section .img2{
+    height: 50vw;
+    padding-right: 20px;
+}
+.tag{
+    height: 30vw;
+}
+.container2{
+position: relative;
+background-image: url(3.1.png);
+height:65rem;
+width: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+background-position-y:85%;
+}
+.left-overlay{
+    /* padding-top: 200px; */
+/* width: 450px; */
+    height: 900px;
+    position: absolute;
+    z-index: 6;
+    top: 102px;
+    left: 0;
+    overflow: hidden;
+}
+.nav2{
+    margin-top: 200px;
+    padding-left: 530px;
+    width: 800px;
+    position:absolute; 
+    display:flex;
+    font-size:15px;
+    /* float: right; */
+    }
+.nav2 img{
+    width: 50px;
+    height: 50px;
+    /* float: left; */
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.nav2 h1{
+    font-size: 35px;
+}
+#para{
+    padding-top: 300px;
+    padding-left: 500px;
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+.container2 .right{
+    margin-left:1105px;
+    margin-top: 0;
+    /* margin-bottom: 00px; */
+}
+.right > form{
+    /* padding:100px ; */
+    display: flex;
+    flex-direction: column;
+    padding-right: 25%;
+}
+.right select{
+    padding: 10px;
+    padding-right: 25px;
+    margin-bottom: 10px;
+    border-radius: 25px ;
+}
+.right button{
+    width: 310px;
+}
+.right p{
+    padding-bottom: 0;
+}
+ .buttonX{
+    padding-bottom: 0;
+    padding-top: 140px;
+    padding-left: 800px;
+    /* margin-right: 300px; */
+}
+.buttonX button{
+    background-color:#b2e0e8;
+    border: none;
+    color: black;
+}
+.container3{
+    position: relative;
+    background-image: url(4.1.png);
+    height:65rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y:85%;
+    }
+.container3 img{
+        position: absolute;
+        z-index: 7;
+        bottom: 0px;
+        /* left: 10px; */
+        padding-left: 700px;
+        overflow: hidden;
+}
+.container3 .img1{
+    padding-top: 700px;
+    padding-left: 400px;
+    position: absolute;
+    padding-bottom: 10px;
+}
+.container3 .img3 img{
+    padding-bottom: 200px;
+    padding-left: 1200px;
+}
+.container3 .img2 img{
+    padding-bottom:270px ;
+    padding-left: 1050px;
+}
+
+.container4{
+    display: flex;
+    padding-bottom: 0;
+}
+.container41{
+    display: flex;    
+}
+.container41 .img1{
+    flex-direction:column;
+    display: flex;
+    margin-left: 100px;
+    padding-top: 400px;
+}
+.container41 .img1 img{
+    padding-bottom: 20px;
+}
+.container41 .img2{
+    flex-direction: column;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 220px;
+}
+.container41 .img2 img{
+    padding-bottom: 20px;
+}
+.container42{
+    padding-top: 400px;
+    padding-left: 300px;
+    font-size: 20px;
+}
+.container42 h1{
+    text-align: center;
+}
+.container42 button{
+    margin-left: 140px;
+    width: 200px;
+    font-size: 20px;
+}
+.container5{
+    height: 80%;
+    position: relative;
+}
+.container5 .img1{
+    width:200px;
+    height: 70vw;
+    bottom: 0px;
+    right: 0;
+    overflow: hidden;
+    float: right;
+    }
+.container5 img{
+    padding-top: 200px;
+    padding-bottom: 0px;
+    padding-left: 150px;
+    position: relative;
+}
+.container5 h2{
+    position: absolute;
+    padding-top: 100px;                                                 
+    width: 25%;
+    margin: 0;
+    padding-left: 100px;
+    top: 335px;
+}
+.container5 .right1{
+    width: 25%;
+    position: absolute;
+    top: 100px;
+    right: 200px;
+}
+.container5 .right2{
+    width: 25%;
+    text-decoration-line: underline;
+    top: 550px;
+    position: absolute;
+    right: 200px;
+}
+.container6{
+    position: relative;
+    background-image: url(7.1.png);
+    height:75rem;
+    width: 100%;
+    background-repeat: no-repeat;background-size: cover;
+    background-position-y:95%;
+}
+.container6 .up{
+        width: 100%;
+        height : 495px;
+        position: absolute;
+        /* top: -250px; */
+        left: 0;
+        overflow: hidden;    
+        background-position-y: 30%;                 
+}
+.container6 .up1{
+    width: 100%;
+    height : 495px;
+    position: absolute;
+    /* top: -250px; */
+    left: 0;
+    overflow: hidden;    
+    background-position-y: 30%;                 
+}
+.container6 .center img{
+    position: absolute;
+    padding-top: 700px;
+    padding-left: 900px;
+}
+.container7 img{
+        float: right;
+        padding-top: 200px;
+        padding-bottom: 200px;
+}
+.container7 .left{
+    width: 400px;
+    padding-top: 400px;
+    padding-left: 120px;
+    
+}
+.container7 .left input{
+    margin-bottom: 10px;
+    width: 320px;
+    height: 30px;
+    border-radius: 15px ;
+    border-color: black;
+    padding-left: 6px;
+}
+.container7 .left form button{
+    width: 320px;
+    color: white;
+    background-color: black;
+}
+.container7 #b{
+    background-color: #b2e0e8;
+    border: none;
+    color: black;
+    margin-left: 400px;
+    margin-top: 400px;
+}
+#last{
+    position: relative;
+    background-image: url(last.png);
+    height:30rem;
+    width: 80rem;
+    /* width: 100%; */
+    background-repeat: no-repeat;background-size: cover;
+    background-position-y:95%;
+    margin-bottom: 0;
+    margin-left: 120px;
+    align-items: center;
+}
+
+#last #left{
+    width: 300px;
+    /* padding: 100px 200px; */
+    padding-left: 100px; 
+    padding-top: 100px;
+}
+/* #last #left a{
+    padding-bottom: 6px;
+} */
+#last .center {
+    width: 400px;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 100px;
+    margin-right: 100px;
+    display: inline-block;
+}
+#last .center p{
+    width: 250px;
+}
+#last #right{
+   margin-left: 150px;
+   /* width: 300px; */
+}
+#last #right input{
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width:240px;
+    height: 30px;
+    padding-left:20px ;
+    color: black;
+}
+#last #right button{
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 250px;
+}
+
+#last #img{
+    height: 70%;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 60px;
+}
+#last .centre img,#last .centre h1{
+    display: inline-block;
+    font-size: xx-large;
+}
